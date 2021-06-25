@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculo RFC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 align = "center">    CALCULO DE RFC <br> SIN HOMOCLAVE   </h1>
+        <p> QUE ES EL "RFC"? <br> El RFC son las siglas de Registro Federal de Contribuyentes, es una clave única 
+            alfanumérica que el gobierno de México utiliza para identificar a las personas físicas (asalariados) 
+            y personas morales (empresas) que lleven a cabo una actividad económica en nuestro país. 
+            Por medio de esta clave la autoridad fiscal es capaz de conocer puntualmente la actividad económica 
+            que cada contribuyente lleva a cabo y con quién. A continuación de explicamos cómo sacar el RFC.</p>       
+        
+        <img  src = "RFC_ejemplo.jpg"
+             alt = "Ejemplo de como esta conformado el RFC"
+             width="600"
+             height="354"/>
+          
+        <div >
+            <form action="/EjemploHomoclave/MyServletMatematicas" method="post">
+                
+                <h2> CALCULO RFC </h2>
+                <h2> Llena los siguientes espacios con la informacion que se te pide.</h2> 
+                <p> Nombre(s) (En mayusculas)
+                <input type="text" name="nombre">
+                </p>
+                <p>Apellido paterno (En mayusculas)
+                <input type="text" name="apaterno">
+                </p>
+                <p>Apellido materno (En mayusculas)
+                 <input type="text" name="amaterno">
+                </p> 
+                <p>Fecha de nacimiento (aaaa/mm/dd)
+                 <input type="text" name="aaaa">
+                 <input type="text" name="mm">
+                 <input type="text" name="dd">
+                </p> 
+                <input type="submit" value="calcular">
+            </form>
+        </div>
+       
+    </body>
+</html>
